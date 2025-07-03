@@ -47,7 +47,7 @@ src/
 - Plain CSS (CSS custom properties)
 
 ## 🔗 Live Demo
-_Coming soon – deploy to Netlify/Vercel_
+https://task0tracker.netlify.app
 
 ## 🖼 Screenshots
 | Dark-mode + Search | All Tasks (light) |
