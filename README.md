@@ -1,4 +1,62 @@
-# Getting Started with Create React App
+# Personal Task Tracker
+
+A minimal yet feature-rich task management SPA built with React. Track todos, set priorities & due dates, tag tasks, and switch seamlessly between light and dark themes.
+
+## 🚀 Features
+- Add, edit, delete and complete tasks
+- Priority, due-date & tag metadata
+- Filter: All / Active / Completed
+- Instant search across title, description & tags
+- LocalStorage persistence (tasks + theme)
+- Animated pill toggle for Dark/Light mode
+- Simple login (username stored locally) & logout
+- Responsive design (mobile ↔ desktop)
+
+## 🛠 Setup Instructions
+```bash
+# Clone repository
+git clone https://github.com/VANSHTalyani/task-tracker.git
+cd task-tracker
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+# Open http://localhost:3000
+```
+
+## 📂 Project Structure
+```
+src/
+  App.js            # root component / routing / global state
+  index.js          # React entry point
+  components/
+    Login.js        # username capture
+    TaskForm.js     # add new task
+    TaskFilter.js   # filter buttons
+    TaskList.js     # list wrapper
+    TaskItem.js     # individual task card
+  utils/localStorage.js # load/save helpers
+  styles/App.css    # global + theme styles
+```
+
+## 🧰 Technologies Used
+- React 18 (hooks only)
+- React Router v6
+- Plain CSS (CSS custom properties)
+
+## 🔗 Live Demo
+_Coming soon – deploy to Netlify/Vercel_
+
+## 🖼 Screenshots
+_Add screenshots here_
+
+## 🤝 Contributing
+Pull requests are welcome. For major changes please open an issue first.
+
+## 📄 License
+MIT © 2025 Vansh Talyani
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
