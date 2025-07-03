@@ -50,7 +50,11 @@ src/
 _Coming soon – deploy to Netlify/Vercel_
 
 ## 🖼 Screenshots
-_Add screenshots here_
+| Dark-mode + Search | All Tasks (light) |
+|---|---|
+| ![Dark Search](assets/dark-search.png) | ![All Tasks](assets/all-tasks.png) |
+
+> _Screenshots live in the `assets/` folder; replace the placeholder files with real captures and they will render automatically on GitHub._
 
 ## 🤝 Contributing
 Pull requests are welcome. For major changes please open an issue first.
